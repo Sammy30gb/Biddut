@@ -1,0 +1,733 @@
+body {
+  margin: 0;
+  padding: 0;
+  src: url("helvetica-neue-5");
+  font-family: "helvetica Neue", Helvetica;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+p {
+}
+.socials {
+  background-color: #16171a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 7px;
+  padding-inline: 200px;
+  word-spacing: 1px;
+}
+.socials a {
+  text-decoration: none;
+  color: #f1eeee;
+}
+.socials-address {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  font-size: 13px;
+}
+.socials-icons {
+  color: #f1eeee;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.navbar {
+  margin-bottom: 0 !important;
+  border-radius: 0 !important;
+}
+#main-logo {
+  padding-left: 185px;
+}
+#extra {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  margin-right: 220px;
+  cursor: pointer;
+  padding-left: 110px;
+}
+.header-list {
+  margin-left: 80px !important;
+}
+.header-list-link {
+  margin-right: 25px;
+  font-size: 16px;
+}
+.first-slide {
+  position: relative;
+  img {
+    height: 90vh;
+    width: 100%;
+
+    -webkit-filter: blur(0px);
+    filter: blur(0);
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    background: url(/images/shape-3-1\\(1\).png) !important;
+    background-repeat: no-repeat !important;
+    background-position: left bottom !important;
+  }
+}
+.slide-content {
+  position: absolute;
+  padding-left: 200px;
+}
+.first-slide h1 {
+  color: #fff;
+  padding-top: 50px;
+  font-size: 80px;
+  font-weight: 600;
+  padding-bottom: 40px;
+}
+.first-slide p {
+  margin-top: -520px;
+  color: #fff;
+  font-size: 26px;
+  font-weight: 500;
+}
+button {
+  border: none;
+  background-color: #dd0733;
+  color: #fff;
+  padding-inline: 33px;
+  padding-block: 17px;
+  font-size: 16px;
+  font-weight: 600;
+}
+button:hover {
+  background-color: #fff;
+  color: #16171a;
+}
+#assurance {
+  background: url(/images/assurannce\ background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding-block: 100px;
+}
+.assurance-div {
+  padding: 38px 40px;
+  border: 0 solid #dfdcdc;
+  box-shadow: 0 0 5px #16171a;
+  cursor: pointer;
+}
+
+.expert-electrician {
+  margin-top: 60px;
+  display: flex;
+  gap: 110px;
+}
+.expert-image-layer {
+  background: url(/images/third\ backg.png);
+  background-repeat: no-repeat;
+  padding-left: 595px;
+  position: relative;
+}
+.first-layer {
+  position: absolute;
+  z-index: 1;
+  right: -170px;
+  top: -10px;
+}
+.second-layer {
+  position: absolute;
+  z-index: 2;
+  right: -137px;
+  bottom: 18px;
+}
+.third-layer {
+  position: absolute;
+  z-index: 3;
+  bottom: -80px;
+  left: 230px;
+}
+.fourth-layer {
+  z-index: 4;
+  position: absolute;
+  bottom: -60px;
+  right: -120px;
+}
+.fifth-layer {
+  z-index: 5;
+  position: absolute;
+  bottom: -30px;
+  right: -10px;
+  font-size: 46px;
+  font-weight: 800;
+  color: #16171a;
+}
+.sixth-layer {
+  z-index: 6;
+  position: absolute;
+  bottom: -55px;
+  right: -55px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #727272;
+  word-spacing: 3px;
+}
+.expert-content {
+  margin-left: 120px;
+  margin-top: 10px;
+}
+.expert-content-headline {
+  color: #727283;
+  font-size: 15px;
+  margin-bottom: -20px;
+  margin-top: 10px;
+}
+.expert-content-h1 {
+  color: #16171a;
+  font-size: 36px;
+  font-weight: 800;
+  max-width: 500px;
+}
+.expert-content-lorem {
+  max-width: 450px;
+  color: #7f7a76;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-block: 10px;
+}
+.expert-icon {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 45px;
+  margin-block: 35px;
+  h6 {
+    color: #16171a;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+    font-size: 18px;
+  }
+}
+.expert-icon-electrician {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.expert-icon-plug {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.check-badgeDiv {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+.check-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding-bottom: 8px;
+}
+.check-badge img {
+  width: 15px;
+  height: 15px;
+}
+.check-badge p {
+  margin-bottom: 0 !important;
+  margin: 0 !important;
+  word-spacing: 1.5px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  color: #7f7a76;
+}
+.signature {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: 30px;
+  gap: 100px;
+  button {
+    font-size: 14px;
+    background-color: #16171a;
+    color: #f1eeee;
+  }
+  button:hover {
+    background-color: #dd0733;
+  }
+  img {
+    width: 130px;
+    height: 45px;
+  }
+}
+.commercial-service {
+  margin-top: 200px;
+  background: url(/images/commercial\ background.png);
+  background-color: rgb(242, 237, 235);
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 10px;
+  padding-bottom: 120px;
+  position: relative;
+  p {
+    color: #727283;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  h1 {
+    color: #16171a;
+    font-size: 46px;
+    font-weight: 800;
+    max-width: 600px;
+    margin-left: 500px;
+    line-height: 1.2;
+    padding-bottom: 10px;
+    margin-top: 0px;
+  }
+}
+.commercial-wire {
+  position: absolute;
+  top: 100px;
+}
+.commercial-content {
+  margin-top: 130px;
+  text-align: center;
+}
+.commercial-box {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  gap: 30px;
+
+  h5 {
+    margin-top: 30px;
+    font-size: 28px;
+    color: #16171a;
+  }
+
+  p {
+    color: #727272;
+    max-width: 280px;
+    margin-block: 50px;
+  }
+
+  button {
+    border: 1px solid #9e9894;
+    font-size: 14px;
+    background-color: #fff;
+    color: #16171a;
+  }
+  button:hover {
+    background-color: #dd0733;
+    border: 1px solid #dd0733;
+
+    color: #fff;
+  }
+}
+
+.outer-box {
+}
+
+.box {
+  background-color: #fff;
+  padding-block: 60px;
+  padding-inline: 50px;
+  transition: all 0.3s ease;
+}
+.box:hover {
+  background-image: url(/images/commercial-hover1.jpg);
+  background-color: #0a0a0a;
+  background-size: cover;
+  transform: translatey(20px);
+
+  h5,
+  p {
+    color: #fff;
+  }
+}
+.btn-arrow {
+  margin-left: 65px;
+}
+
+.box:nth-child(1) {
+  animation: moveUpDown 1s ease infinite alternate;
+}
+.box:nth-child(2) {
+  animation: move 1s ease infinite alternate;
+}
+.box:nth-child(3) {
+  animation: moveUpDown 1s ease infinite alternate;
+}
+
+@keyframes moveUpDown {
+  20% {
+    transform: translateY(30px);
+  }
+  50% {
+    transform: translatex(-30px);
+  }
+}
+
+@keyframes move {
+  30% {
+    transform: translateY(20px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes moveUpDown {
+  20% {
+    transform: translateY(30px);
+  }
+  50% {
+    transform: translatex(30px);
+  }
+}
+.emergency {
+  display: flex;
+  align-content: center;
+  height: 100vh;
+}
+.emergency-details {
+  background: url(/images/emergency-bg.jpg);
+  width: 53%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .content {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    background-color: #fff;
+    text-align: center;
+    padding-block: 40px;
+    margin-inline: 210px;
+    margin-top: 450px;
+
+    h6 {
+      font-size: 28px;
+      font-weight: 550;
+      font-weight: 550;
+      color: #0a0a0a;
+    }
+  }
+}
+
+.emergency-content {
+  margin-left: -95px;
+  padding-left: 80px;
+  width: 55%;
+  padding-top: 100px;
+  background-color: #1d1e22;
+  color: #fff;
+
+  .emergency-content-headline {
+    color: #9e9894;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  h1 {
+    font-size: 46px;
+    font-weight: 800;
+    max-width: 600px;
+    margin-top: 0;
+    line-height: 1.2;
+  }
+
+  .emergency-content-text {
+    font-size: 18px;
+    color: #72726f;
+    max-width: 600px;
+    padding-block: 25px;
+  }
+}
+.emergency-icons {
+  display: grid;
+  grid-template-columns: repeat(2, 0fr);
+  grid-template-rows: repeat(2, 1fr);
+  align-items: center;
+
+  h5 {
+    font-size: 20px;
+  }
+
+  img {
+    background-color: #dd0733;
+    padding: 7px;
+    border-radius: 60px;
+    width: 50%;
+  }
+}
+.emergency-div {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-left: 20px;
+  padding-right: 120px;
+  padding-block: 10px;
+  background-color: #16171a;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.emergency-div:hover {
+  background-color: #fff;
+  color: #000;
+
+  img {
+    background-color: #000;
+  }
+}
+
+.working-step {
+  background: #fefefe;
+  padding-bottom: 100px;
+}
+.working-step-headline {
+  text-align: center;
+  padding-top: 120px;
+  h1 {
+    color: #16171a;
+    font-size: 46px;
+    font-weight: 800;
+    max-width: 600px;
+    line-height: 1.2;
+    margin-left: 500px;
+    margin-top: 0;
+  }
+  p {
+    color: #837272;
+    font-size: 16px;
+    font-weight: 500;
+    word-spacing: 1px;
+  }
+}
+.steps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: -50px;
+
+  .icon {
+    align-content: center;
+    margin-left: 100px;
+    background-color: #16171a;
+    padding: 25px;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+  }
+  .icon:hover {
+    background-color: #dd0733;
+  }
+
+  h6 {
+    cursor: pointer;
+    color: #16171a;
+    font-weight: 600;
+  }
+  .step-down {
+    padding-top: 150px;
+  }
+  .step-bottom {
+    margin-left: 78px;
+    margin-top: -30px;
+  }
+}
+.steps-content {
+  background-color: #fff;
+  margin-top: -50px;
+  padding-block: 60px;
+  padding-inline: 15px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+
+  p {
+    max-width: 280px;
+  }
+}
+
+.electrical-contract {
+  background: url(/images/elctrical-contractor1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  z-index: 0;
+}
+.electrical-contract::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #1e1e1e;
+  opacity: 0.902;
+  z-index: 1;
+}
+.electrical-contract-headline {
+  position: absolute;
+  z-index: 2;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  top: 110px;
+  left: 150px;
+}
+.electrical-contracth1 {
+  color: #fff;
+  position: absolute;
+  z-index: 3;
+  font-size: 36px;
+  font-weight: 800;
+  max-width: 600px;
+  line-height: 1.2;
+  top: 115px;
+  left: 150px;
+}
+.electrical-contract-text {
+  font-size: 15px;
+  font-weight: 600;
+  word-spacing: 0.5px;
+  color: #fff;
+  position: absolute;
+  z-index: 4;
+  max-width: 500px;
+  top: 250px;
+  left: 150px;
+}
+.contract-btn1 {
+  position: absolute;
+  z-index: 5;
+  top: 370px;
+  left: 150px;
+  font-size: 13px;
+  font-weight: 800;
+  border: 1px solid #dd0733;
+}
+.contract-btn1:hover {
+  border: 1px solid #fff;
+}
+.contract-btn2 {
+  position: absolute;
+  z-index: 6;
+  top: 370px;
+  left: 350px;
+  font-size: 13px;
+  font-weight: 800;
+  border: 1px solid #fff;
+  background-color: transparent;
+}
+.contract-btn2:hover {
+  color: #fff;
+  background-color: #dd0733;
+  border: 1px solid #dd0733;
+}
+.contractor-img1 {
+  position: absolute;
+  z-index: 7;
+  top: 350px;
+  right: 300px;
+}
+.contractor-img2 {
+  position: absolute;
+  z-index: 8;
+  top: 320px;
+  right: 435px;
+}
+.contractor-img3 {
+  position: absolute;
+  z-index: 9;
+  right: -20px;
+  top: 80px;
+}
+.contractor-img4 {
+  position: absolute;
+  z-index: 1;
+  right: 485px;
+  top: 240px;
+}
+.faq {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  height: 93vh;
+}
+.faqDropdown {
+  padding-left: 200px;
+
+  p {
+    font-size: 14px;
+    color: #9e9894;
+  }
+}
+.faq-header {
+  margin-block: -1px;
+}
+.faq-button {
+  border: 1px solid #72726f;
+}
+.faq-button:hover {
+  background-color: #dd0733;
+  color: #fff;
+}
+
+.faq-img {
+  position: relative;
+  margin-left: auto;
+  width: 45%;
+  margin-top: -200px;
+}
+.client-review {
+  background: url(/images/client\ review-bg1.png);
+  background-color: #e7e4e5;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.client-review-headline {
+  background: url(/images/client\ review-bg2.png);
+  height: 50vh;
+  background-position: top right;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 100px;
+
+  h1 {
+    color: #16171a;
+    font-size: 46px;
+    font-weight: 800;
+    max-width: 600px;
+    line-height: 1.2;
+    margin-left: 500px;
+    margin-top: 0;
+  }
+  p {
+    color: #837272;
+    font-size: 15px;
+    font-weight: 600;
+    word-spacing: 1px;
+  }
+}
+..review-scroll{
+  
+
+}
+.review-scroll img{
+
+
+}
